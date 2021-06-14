@@ -1,0 +1,33 @@
+# CPP--PROGRAMS
+1.To find the size of int, float, double, char .   2. To find the product of two numbers entered by the user
+
+//TO FIND SIZE OF INT, FLOAT, DOUBLE AND CHAR IN YOU SYSTEM//
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"size of char:"<<sizeof(char)<<"byte"<<endl;
+	cout<<"size of int:"<<sizeof(int)<<"byte"<<endl;
+	cout<<"size of float:"<<sizeof(float)<<"byte"<<endl;
+	cout<<"size of double:"<<sizeof(double)<<"byte"<<endl;
+	return 0;
+	
+}
+
+
+
+
+//to find the product of two numbers entered by the user//
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	float a,b,c;
+	cout<<"Enter two numbers:";
+	cin>>a>>b;
+	c=a*b;
+	cout<<"Product="<<c;
+	return 0;
+}
