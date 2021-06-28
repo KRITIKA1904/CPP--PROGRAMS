@@ -1,0 +1,21 @@
+//To check age of a user is eligible for voting or not
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int age;
+	cout<<"Nationality:INDIAN\n";
+    cout<<"Enter the age of the person:";
+	cin>>age;
+	if(age>=18)
+	{
+		cout<<"Person is eligible:) ";
+		
+	}
+	else
+	{
+		cout<<"Person is not eligible:(";
+	}
+return 0;
+}
